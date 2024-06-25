@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Dinamico | Social links profile</title>
+</head>
+
+
+
+<body>
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-6 px-5">
+        <form action="">
+          <div class="d-flex justify-content-center align-items-center flex-column m-4">
+            <img id="img-perfil" class="rounded-circle cover" width="100" height="100"
+              src=" https://th.bing.com/th/id/OIP.V4jnwGuAPzR8HPOy5VdWiAAAAA?rs=1&pid=ImgDetMain" alt="imagen random">
+            <h2 id="h1texto-nombre" class="fw-bold text-white">Jessica Randall</h2>
+            <h3 id="texto-city" class="fw-bold text-warning"> London, United Kingdom</h3>
+            <p id="texto-especialidad" class="text-white">"Front-end developer and avid reader."</p>
+          </div>
+          <div class="container-network d-flex justify-content-center align-items-center flex-column ">
+            <button type="submit" class="btn btn-secondary w-100 m-2"> GitHub</button>
+            <button type="submit" class="btn btn-secondary w-100 m-2"> Frontend Mentor</button>
+            <button type="submit" class="btn btn-secondary w-100 m-2"> Twitter</button>
+            <button type="submit" class="btn btn-secondary w-100 m-2"> Instagram</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-6">
+        <form>
+          <div class="gap-3">
+            <label for="exampleInput1" class="form-label text-white m-4" id="form-label-1">Ingrese informacion
+              Aqui</label>
+            <input type="text" class="form-control m-2" id="exampleInput1" placeholder="Ingresa la imagen"
+              id="imagen-perfil-input">
+            <input type="text" class="form-control m-2" id="exampleInput2" placeholder="Ingresa el pais">
+            <input type="text" class="form-control m-2" id="exampleInput3" placeholder="Ingresa tu especilaidad">
+            <input type="text" class="form-control m-2" id="exampleInput4" placeholder="Ingresa GitHub">
+            <input type="text" class="form-control m-2" id="exampleInput5" placeholder="Ingresa Front-end">
+            <input type="text" class="form-control m-2" id="exampleInput6" placeholder="Ingresa Twitter">
+            <input type="text" class="form-control m-2" id="exampleInput7" placeholder="Ingresa Instagram">
+          </div>
+          <button type="button" class="btn btn-primary" id="btn">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
